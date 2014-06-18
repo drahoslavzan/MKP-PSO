@@ -1,0 +1,7 @@
+OBJECTS(n)  KNAPSACKS(m)  OPTIMUM
+
+[n] PROFIT
+
+[m x n] CONSTRAINTS
+
+[m] BUDGET
