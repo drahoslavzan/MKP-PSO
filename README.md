@@ -12,7 +12,6 @@ configuration can lead to a better solution and/or reduced time spent
 in searching for a solution.
 
 
-
 ### External libraries:
 
 * OpenMPI
@@ -21,15 +20,15 @@ in searching for a solution.
 
 ### Build:
 
-> $ cd cpu
-> $ mkdir build
-> $ cd build
-> $ cmake ..
+> $ cd cpu  
+> $ mkdir build  
+> $ cd build  
+> $ cmake ..  
 > $ make
 
 
 ### Example (4 swarms):
 
-> $ ./mkp --help
+> $ ./mkp --help  
 > $ mpirun -np 4 ./mkp --exch 1 --stat 0 --stop 300 --epochs 3000 --particles 128 --vel "5 10 15 20" --verbose ../../data/weing8.dat
 
