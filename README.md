@@ -15,20 +15,22 @@ in searching for a solution.
 ### External libraries:
 
 * OpenMPI
-* papi
+* PAPI
 
 
 ### Build:
 
-> $ cd cpu  
-> $ mkdir build  
-> $ cd build  
-> $ cmake ..  
-> $ make
-
+~~~
+$ cd cpu  
+$ mkdir build  
+$ cd build  
+$ cmake ..  
+$ make
+~~~
 
 ### Example (4 swarms):
 
-> $ ./mkp --help  
-> $ mpirun -np 4 ./mkp --exch 1 --stat 0 --stop 300 --epochs 3000 --particles 128 --vel "5 10 15 20" --verbose ../../data/weing8.dat
-
+~~~
+$ ./mkp --help  
+$ mpirun -np 4 ./mkp --exch 1 --stat 0 --stop 300 --epochs 3000 --particles 128 --vel "5 10 15 20" --verbose ../../data/weing8.dat
+~~~
