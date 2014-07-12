@@ -7,7 +7,7 @@ technique.  The Multidimensional Knapsack Problem (MKP) was chosen as
 a benchmark for demonstration purposes, but it is one of the most widely
 used combinatorial optimization problems. This solver can also be used in
 parallel environment such as HPC cluster, where one or more multi-core CPUs
-or GPUs are allocated for each swarm (process). Running in a such
+or GPU are allocated for each swarm (process). Running in a such
 configuration can lead to a better solution and/or reduced time spent
 in searching for a solution.
 
